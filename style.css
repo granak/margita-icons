@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.area {
+    width: 100%;
+}
+.light { 
+    background: white;
+}
+.dark { 
+    background: rgb(30, 30, 30);
+}
+.icon { 
+    width: 256px;
+    height: 256px;
+    display: inline-block;
+    border: 4px solid;
+    border-radius: 64px;
+    background-size: cover;
+    margin: 10px;
+}
+
+.light .icon {
+    border-color: rgb(40, 40, 40);
+}
+.dark .icon {
+    border-color: rgb(210, 210, 210);
+}
+
+.light .icon:nth-child(1){
+    background-image: url('icons/icon_bag_512x512.png');
+}
+.light .icon:nth-child(2){
+    background-image: url('icons/icon_shoe_512x512.png');
+}
+.light .icon:nth-child(3){
+    background-image: url('icons/icon_sniper_512x512.png');
+}
+.light .icon:nth-child(4){
+    background-image: url('icons/icon_man_512x512.png');
+}
+.light .icon:nth-child(5){
+    background-image: url('icons/icon_woman_512x512.png');
+}
+.light .icon:nth-child(6){
+    background-image: url('icons/icon_child_512x512.png');
+}
+.light .icon:nth-child(7){
+    background-image: url('icons/icon_tresor_512x512.png');
+}
+
+.dark .icon:nth-child(1){
+    background-image: url('icons/icon_bag_white_512x512.png');
+}
+.dark .icon:nth-child(2){
+    background-image: url('icons/icon_shoe_white_512x512.png');
+}
+.dark .icon:nth-child(3){
+    background-image: url('icons/icon_sniper_white_512x512.png');
+}
+.dark .icon:nth-child(4){
+    background-image: url('icons/icon_man_white_512x512.png');
+}
+.dark .icon:nth-child(5){
+    background-image: url('icons/icon_woman_white_512x512.png');
+}
+.dark .icon:nth-child(6){
+    background-image: url('icons/icon_child_white_512x512.png');
+}
+.dark .icon:nth-child(7){
+    background-image: url('icons/icon_tresor_white_512x512.png');
+}
